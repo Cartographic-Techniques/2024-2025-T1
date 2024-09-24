@@ -1,13 +1,10 @@
-To interact with WMS (Web Map Service), WMTS (Web Map Tile Service), and WCS (Web Coverage Service) in QGIS, you can follow this step-by-step tutorial. Each of these services provides different types of geospatial data:
+This tutorial covers the basic steps to add and interact with WMS, WMTS, and WCS services in QGIS. Each type of service allows for different kinds of interaction with geospatial data. For advanced usage, such as scripting or automated queries, you can explore QGIS’s Python API or plugins that enhance service handling capabilities.
 
 - **WMS** provides map images rendered by the server.
 - **WMTS** provides tiled map images for faster rendering.
 - **WCS** provides raster data, such as satellite imagery or terrain models.
 
-This tutorial covers the basic steps to add and interact with WMS, WMTS, and WCS services in QGIS. Each type of service allows for different kinds of interaction with geospatial data, making QGIS a versatile tool for various GIS tasks. For advanced usage, such as scripting or automated queries, you can explore QGIS’s Python API or plugins that enhance service handling capabilities.
-
 ### Prerequisites
-1. **QGIS Installed**: Ensure you have the latest version of QGIS installed. You can download it from [QGIS Official Website](https://qgis.org).
 2. **Service URLs**: You should have URLs for the WMS, WMTS, and WCS services you want to use.
 
 ### 1. Adding a WMS Layer
@@ -79,12 +76,9 @@ WMS services provide rendered map images that you can overlay on your project. H
   - URL: `https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi`
   - Description: Provides daily satellite imagery, such as MODIS Terra and Aqua.
 
-- **OpenStreetMap WMS**
-  - URL: `https://ows.terrestris.de/osm/service`
-  - Description: Provides OpenStreetMap data rendered as a WMS service.
-
 - **European Space Agency (ESA) WorldCover**
-  - URL: `https://services.terrascope.be/wms/v2`
+  - URL: `https://esa-worldcover.org/en`
+  - WMS URL: `https://services.terrascope.be/wms/v2https://services.terrascope.be/wms/v2`
   - Description: ESA WorldCover 10m resolution land cover map.
 
 ### 8. WMTS (Web Map Tile Service)

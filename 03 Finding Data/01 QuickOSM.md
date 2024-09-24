@@ -1,10 +1,9 @@
 ## QuickOSM Plugin Tutorial in QGIS
 
 ### Introduction
-QuickOSM is a QGIS plugin that allows you to download and use OpenStreetMap (OSM) data directly in QGIS. This data can include a wide variety of geographic features such as roads, buildings, waterways, and more. This tutorial will guide you through the steps of installing, configuring, and using the QuickOSM plugin in QGIS.
+QuickOSM is a QGIS plugin that allows you to download and use OpenStreetMap (OSM) data directly in QGIS. This data can include a wide variety of geographic features such as roads, buildings, waterways, and more.
 
 ### Prerequisites
-- **QGIS Installed**: Make sure you have QGIS installed on your computer. You can download it from [QGIS.org](https://qgis.org).
 - **Internet Connection**: Required to download data from OpenStreetMap.
 
 ### 1. Installing the QuickOSM Plugin
@@ -71,6 +70,3 @@ QuickOSM provides a simple interface to query OSM data:
 ### 7. Advanced Tips
 - **Combining Multiple Queries**: Use the **Key/Value** fields to create complex queries like `highway=primary` and `surface=paved`.
 - **Custom Overpass API**: If you are frequently getting "Too many requests" errors, consider using a custom Overpass API server.
-
-### Conclusion
-QuickOSM is a powerful tool for integrating OSM data into your GIS projects. With this plugin, you can easily download and analyze geographic data from OpenStreetMap directly within QGIS. Experiment with different queries and use cases to fully leverage the potential of OSM data in your projects.
